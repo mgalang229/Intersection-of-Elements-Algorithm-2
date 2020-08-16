@@ -5,7 +5,7 @@ using namespace std;
 using namespace __gnu_pbds;
 
 typedef tree<int,null_type,less<int>,rb_tree_tag,
-		tree_order_statistics_node_update> indexed_set;
+	tree_order_statistics_node_update> indexed_set;
 
 void test_case() {
 	unordered_set<int> a = {5,2,8,9,4};
